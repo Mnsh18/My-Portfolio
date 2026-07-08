@@ -3,7 +3,7 @@ function Contact() {
     <section id="contact" className="contact">
       <h2>Contact Me</h2>
 
-      <p>📧 Email: sarmamanash60@.com</p>
+      <p>📧 Email: sarmamanash60@gmail.com</p>
 
       <p>📱 Phone: +91 6002388318</p>
 
