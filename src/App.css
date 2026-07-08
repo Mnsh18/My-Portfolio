@@ -566,3 +566,59 @@ nav a:hover{
 .profile-image:hover {
     transform: scale(1.05);
 }
+/* =========================
+   Mobile Responsive
+========================= */
+
+@media (max-width: 768px) {
+
+  nav{
+    padding:15px 20px;
+    flex-direction:column;
+    gap:15px;
+  }
+
+  nav ul{
+    gap:15px;
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+
+  .hero{
+    flex-direction:column;
+    text-align:center;
+    gap:40px;
+    padding:50px 20px;
+  }
+
+  .hero-left,
+  .hero-right{
+    width:100%;
+  }
+
+  .hero-right h1{
+    font-size:48px;
+  }
+
+  .hero-right h3{
+    font-size:24px;
+  }
+
+  .hero-right p{
+    width:100%;
+    font-size:18px;
+  }
+
+  .hero-buttons{
+    justify-content:center;
+    flex-wrap:wrap;
+  }
+
+  
+
+  .experience,
+  .contact{
+    padding:60px 20px;
+  }
+
+}
