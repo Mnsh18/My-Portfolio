@@ -1,5 +1,6 @@
 import profile from "../assets/manashpic.png";
 import { motion } from "framer-motion";
+import { FaGithub, FaLinkedin, FaFilePdf } from "react-icons/fa";
 
 function Hero() {
   return (
@@ -82,26 +83,43 @@ function Hero() {
 </motion.p>
 
         <motion.div
-  className="hero-buttons"
+  className="hero-icons"
   initial={{ opacity: 0, y: 20 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{ delay: 1.8, duration: 0.6 }}
 >
 
-          <a href="/Manash%20Jyoti%20Sarma%20resume.pdf" download>
-            <button>Download Resume</button>
-          </a>
+  <div className="hero-icons">
 
-          <a
-            href="https://github.com/Mnsh18"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button>GitHub</button>
-          </a>
+  <a
+    href="/Manash%20Jyoti%20Sarma%20resume.pdf"
+    download
+    title="Resume"
+  >
+    <FaFilePdf style={{ color: "#E53935" }} />
+  </a>
 
-        </motion.div>
+  <a
+    href="https://github.com/Mnsh18"
+    target="_blank"
+    rel="noopener noreferrer"
+    title="GitHub"
+  >
+    <FaGithub style={{ color: "#181717" }} />
+  </a>
 
+  <a
+    href="https://www.linkedin.com/in/manash-jyoti-sarma"
+    target="_blank"
+    rel="noopener noreferrer"
+    title="LinkedIn"
+  >
+    <FaLinkedin style={{ color: "#0A66C2" }} />
+  </a>
+
+</div>
+
+</motion.div>
       </motion.div>
 
     </section>

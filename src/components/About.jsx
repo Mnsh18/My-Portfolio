@@ -4,28 +4,24 @@ function About() {
 
       <h2>About Me</h2>
 
-      <div className="about-container">
+      <div className="about-content">
 
-        <div className="about-card">
-          <h3>🎓 Education</h3>
-          <p>B.Tech in Computer Science & Engineering</p>
-        </div>
+        <p>
+          I'm a Computer Science graduate who enjoys building practical software applications. I believe in continuous
+          learning and improving through hands-on projects and consistent
+          practice.
+        </p>
 
-        <div className="about-card">
-          <h3>💻 Technical Skills</h3>
-          <p>Python, React, HTML, CSS, SQL</p>
-        </div>
+        <p>
+          Currently, I'm strengthening my problem-solving skills through
+          Data Structures & Algorithms while building projects to gain
+          real-world development experience.
+        </p>
 
-        <div className="about-card">
-          <h3>🤖 Interests</h3>
-          <p>Machine Learning, Software Development & Problem Solving</p>
-        </div>
-
-        <div className="about-card">
-          <h3>📚 Currently Learning</h3>
-          <p>Data Structures & Algorithms</p>
-          <p>React</p>
-        </div>
+        <p>
+          I'm looking for opportunities where I can contribute, learn from
+          experienced developers, and grow as a software engineer.
+        </p>
 
       </div>
 
